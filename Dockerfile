@@ -1,4 +1,4 @@
-from alpine:edge
+from arm64v8/alpine:edge
 run apk update && apk upgrade && \
  apk add --virtual build-dependencies py2-pip && \
  apk add bash supervisor xvfb x11vnc ttf-dejavu openbox dbus && \
